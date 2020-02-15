@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+title {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 110px;
+    background-color: black;
+}
+
+.h1-header {
+    color: white;
+    font-size: 70px;
+    transition: 0.5s;
+}
+
+.h1-header:hover {}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    background-color: #424242;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    background-color: black;
+}
+
+.p-main {
+    font-size: 20px;
+    color: white;
+}
+
+#caixas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button-caixas {
+    height: 280px;
+    width: 500px;
+    border-radius: 30px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 50px;
+    background-color: black;
+    text-align: center;
+    padding-top: 220px;
+    transition-duration: 0.5s;
+}
+
+.bt1 {
+    color: red;
+    text-decoration: none;
+}
+
+.bt1:hover {
+    background-color: red;
+    color: black;
+}
+
+.bt2 {
+    color: rgb(11, 42, 144);
+    text-decoration: none;
+}
+
+.bt2:hover {
+    background-color: rgb(11, 42, 144);
+    color: black;
+}
